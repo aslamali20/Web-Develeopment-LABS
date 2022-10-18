@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2718/2718413.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registartion_form</title>
+    <link rel="stylesheet" href="4_style.css" />
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+
+    <!-- START MENU -->
+
+    <div class="main">
+
+        <input type="checkbox" id="check" />
+        <label for="check">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+        <img src="https://www.getadmissioninfo.com/uploads/topics/-vishwakarma-institute-of-technology-vit-pune.jpg" class="vitlogo" alt="" />
+
+        <div class="sidebar">
+            <a href="menu.html">
+                <header>MENU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </header>
+            </a>
+            <ul>
+                <li>
+                    <a href="1_student_details.html"><i class="fas fa-qrcode"></i>Personal Details</a>
+                </li>
+                <li>
+                    <a href="2_address_information.html"><i class="fas fa-link"></i>Address Information</a>
+                </li>
+                <li>
+                    <a href="3_parents_details.html"><i class="fas fa-stream"></i>Guardian's Details</a>
+                </li>
+                <li>
+                    <a href="4_past_qulification.html"><i class="fas fa-calendar-week"></i>Education Qualifications</a>
+                </li>
+                <li>
+                    <a href="5_Social_media.html"><i class="far fa-envelope"></i>Social Media Details</a>
+
+                </li>
+                <li>
+                    <a href="password.html"><i class="fas fa-sliders-h"></i>Enter Your Password</a>
+                </li>
+                <li>
+                    <a href="#"><i class="far fa-question-circle"></i>About </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- END menu -->
+
+        <div class="container">
+            <h2>Education Qualifications</h2>
+            <div class="form-container">
+                <form>
+                    <tr>
+                        <td>QUALIFICATIONS</td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <th>S.no</th>
+                                    <th>Examinations</th>
+                                    <th>Board</th>
+                                    <th>percentage</th>
+                                    <th>year of passing</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Class X</td>
+                                    <td><input type="text" class="q" /></td>
+                                    <td><input type="number" class="q" /></td>
+                                    <td><input type="number" class="q" /></td>
+
+                                    <td>
+                                        <input type="file" name="fileToUpload" id="fileToUpload" />
+                                    </td>
+                                    <td>
+                                        <input type="button" value="Upload Image" name="submit" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Class XII</td>
+                                    <td><input type="text" class="q" /></td>
+                                    <td><input type="number" class="q" /></td>
+                                    <td><input type="number" class="q" /></td>
+
+                                    <td>
+                                        <input type="file" name="fileToUpload" id="fileToUpload" />
+                                    </td>
+                                    <td>
+                                        <input type="button" value="Upload Image" name="submit" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Graduation</td>
+                                    <td><input type="text" class="q" /></td>
+                                    <td><input type="number" class="q" /></td>
+                                    <td><input type="number" class="q" /></td>
+
+                                    <td>
+                                        <input type="file" name="fileToUpload" id="fileToUpload" />
+                                    </td>
+                                    <td>
+                                        <input type="button" value="Upload Image" name="submit" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Masters</td>
+                                    <td><input type="text" class="q" /></td>
+                                    <td><input type="number" class="q" /></td>
+                                    <td><input type="number" class="q" /></td>
+
+                                    <td>
+                                        <input type="file" name="fileToUpload" id="fileToUpload" />
+                                    </td>
+                                    <td>
+                                        <input type="button" value="Upload Image" name="submit" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td>COURSES APPLIED FOR:</td>
+                        <td>
+                            B.CA: <input type="radio" name="COURSES APPLIED FOR" /> B.COM:
+                            <input type="radio" name="COURSES APPLIED FOR" /> B.SC:
+                            <input type="radio" name="COURSES APPLIED FOR" /> B.A:
+                            <input type="radio" name="COURSES APPLIED FOR" /> B.TECH
+                            <label> Branch : </label>
+                            <select>
+                <option value="Branch">Branch/option></option>
+                <option value="ENTC">ENTC</option>
+                <option value="ME">ME</option>
+                <option value="CS">CS</option>
+                <option value="IT">IT</option>
+                <option value="Chemical">Chemical</option>
+                <option value="Instrumentation">Instrumentation</option>
+              </select>
+                            <select>Select Year
+                        <option value="Branch">Year/option></option>
+                        <option value="Branch">FY</option>
+                        <option value="Branch">SY</option>
+                        <option value="Branch">TY</option>
+                        <option value="Branch">Final Year</option>
+                    </select>
+                        </td>
+                    </tr>
+
+
+                    <br>
+                    <br>
+                    <center>
+
+                        <input type="submit" value="submit" id="contBtn" />
+                        <a href="5_Social_media.html"><input type="button" value="Next" id="contBtn" /></a>
+                    </center>
+            </div>
+            </form>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

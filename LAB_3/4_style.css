@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://cdn.woorise.com/template/wp-content/uploads/sites/62/2021/02/online-registration-background.png");
+}
+
+
+/* body {
+    font-size: 14px;
+    background-color: #f2f2f2f2;
+} */
+
+.container {
+    background-color: rgba(255, 255, 255, 0.671);
+    background: linear-gradient(white);
+    width: 1020px;
+    padding: 25px;
+    margin: 50px auto;
+    border-top: 5px solid blue;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container h2 {
+    font-size: 24px;
+    line-height: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+.input-name {
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+
+.name {
+    width: 45%;
+    padding: 8px 0 8px 40px;
+}
+
+.email {
+    width: 45%;
+    padding: 8px 0 8px 40px;
+}
+
+.input-name span {
+    margin-left: 35px;
+}
+
+.text-name {
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+
+.input-name i {
+    position: absolute;
+    font-size: 18px;
+    color: blue;
+}
+
+.icon {
+    padding: 8px 11px !important;
+}
+
+.aalam-level {
+    display: flex;
+    margin: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.address {
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+
+#contBtn {
+    position: relative;
+    top: 1.5em;
+    text-decoration: none;
+    background: #2d30ce;
+    color: #fff;
+    margin: auto;
+    padding: 0.8em 3em;
+    -webkit-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);
+    -moz-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);
+    box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);
+    border-radius: 25px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+#contBtn:hover {
+    -webkit-box-shadow: 0px 15px 30px rgba(245, 9, 9, 0.41);
+    -moz-box-shadow: 0px 15px 30px rgba(9, 139, 31, 0.932);
+    box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    transform: translateY(-2px);
+}
+
+
+/* hover */
+
+.text-name:hover,
+.name:hover,
+.address:hover {
+    background-color: #f2f2f2;
+}
+
+.container:hover,
+.form-container:hover,
+.q:hover {
+    background-color: #f2f2f2;
+}
+
+
+/* START MENU CSSS */
+
+
+/* MANU BAR */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500");
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #042331;
+    transition: all 0.5s ease;
+}
+
+.sidebar header {
+    font-size: 22px;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+    background: #063146;
+    user-select: none;
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 15px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 0.4s;
+}
+
+ul li:hover a {
+    padding-left: 50px;
+}
+
+.sidebar ul a i {
+    margin-right: 16px;
+}
+
+#check {
+    display: none;
+}
+
+label #btn,
+label #cancel {
+    position: absolute;
+    background: #042331;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+label #btn {
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+    transition: all 0.5s;
+}
+
+label #cancel {
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: #0a5275;
+    padding: 4px 9px;
+    transition: all 0.5s ease;
+}
+
+#check:checked~.sidebar {
+    left: 0;
+}
+
+#check:checked~label #btn {
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked~label #cancel {
+    left: 195px;
+}
+
+#check:checked~section {
+    margin-left: 250px;
+}
+
+section {
+    /* background: url(bg.jpeg) no-repeat; */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    transition: all 0.5s;
+}
+
+.vitlogo {
+    width: 10%;
+    border-radius: 50%;
+    position: absolute;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+
+/* END MANU CSS */

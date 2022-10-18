@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2718/2718413.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registartion_form</title>
+    <link rel="stylesheet" href="1_style.css" />
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="main">
+
+        <!-- START MENU -->
+
+
+
+        <input type="checkbox" id="check" />
+        <label for="check">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+        <img src="https://www.getadmissioninfo.com/uploads/topics/-vishwakarma-institute-of-technology-vit-pune.jpg" class="vitlogo" alt="" />
+
+        <div class="sidebar">
+            <a href="menu.html">
+                <header>MENU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </header>
+            </a>
+            <ul>
+                <li>
+                    <a href="1_student_details.html"><i class="fas fa-qrcode"></i>Personal Details</a>
+                </li>
+                <li>
+                    <a href="2_address_information.html"><i class="fas fa-link"></i>Address Information</a>
+                </li>
+                <li>
+                    <a href="3_parents_details.html"><i class="fas fa-stream"></i>Guardian's Details</a>
+                </li>
+                <li>
+                    <a href="4_past_qulification.html"><i class="fas fa-calendar-week"></i>Education Qualifications</a>
+                </li>
+                <li>
+                    <a href="5_Social_media.html"><i class="far fa-envelope"></i>Social Media Details</a>
+
+                </li>
+                <li>
+                    <a href="password.html"><i class="fas fa-sliders-h"></i>Enter Your Password</a>
+                </li>
+                <li>
+                    <a href="#"><i class="far fa-question-circle"></i>About </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- END menu -->
+
+        <div class="container">
+            <h2>Personal Details</h2>
+            <div class="form-container">
+                <form>
+                    <div class="input-name">
+                        <i class="fa fa-user icon"></i>
+                        <input type="text" placeholder="First Name" class="name" name="Name" required />
+
+                        <span>
+              <i class="fa fa-user icon"></i>
+              <input
+                type="text"
+                placeholder="Last Name"
+                class="name"
+                name="Name"
+                required
+              />
+            </span>
+                    </div>
+
+                    <div class="input-name">
+                        <i class="fa fa-envelope icon"></i>
+                        <input type="email" placeholder="email" class="email" name="email" required />
+
+                        <span>
+              <i class="fa fa-phone icon"></i>
+              <input
+                type="number"
+                placeholder="Mob Number"
+                class="name"
+                name="number"
+                id="number"
+                required
+              />
+            </span>
+
+                    </div>
+
+                    <div class="input-name">
+                        <i class="fa fa-birthday-cake icon"></i>
+
+                        <input type="" name="number" id="dob" placeholder=dd/mm/yyyy class="email" required />
+                        <span>
+              <i class="fa fa-male icon"></i>
+              <input
+                type="number"
+                placeholder="Enter Age"
+                class="name"
+                name="number"
+                id="number"
+                required
+              />
+            </span>
+                    </div>
+
+                    <div class="input-name">
+                        <i class="fa fa-bolt icon"></i>
+                        <input type="text" placeholder="Enter Your Hobbies" class="hobbies" name="hobbies" required />
+                    </div>
+
+
+                    <div class="input-name">
+
+                        <select class="country">
+                <!-- <option>Select a Country</option> -->
+                 <option>India </option>
+                <!-- <option>Itley</option>
+                <option>Nepal</option> -->
+              </select>
+                    </div>
+                    <div class="arrow"></div>
+            </div>
+            <div class="input-name">
+                <input type="checkbox" clas="check-button" />
+                <label>I accept terms and conditions</label>
+            </div>
+
+            <!-- <div class="input-name">
+                        <input type="submit" clas="button" value="register" /> -->
+            <center>
+                <input type="submit" value="submit" id="contBtn" />
+                <a href="2_address_information.html"><input type="button" value="Next" id="contBtn" /></a>
+            </center>
+        </div>
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>
